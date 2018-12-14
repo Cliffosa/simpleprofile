@@ -1,0 +1,125 @@
+body {
+	color: #fff;
+	background: skyblue;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+
+}
+
+
+a, a:visited,a:hover{
+	color:pink;
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	margin:60px auto;
+	text-transform:capitalize;
+	text-align: center;
+	color: white;
+
+}
+
+header h2 {
+	font-size: 50px;
+	padding: 5px;
+	margin-bottom: 0px;
+}
+
+section {
+	background: white;
+	padding: 20px;
+	text-align:center;
+}
+
+.msg {
+	background: rgba(25, 25, 25, 0.9);
+	height: auto;
+	width: 100%;
+	text-align:center;
+	color: white;
+	margin: 0 auto;
+	padding: 15px;
+	margin-top: -20px;
+
+}
+
+.msg p {
+	font-size: 30px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+#num,#meg {
+	margin-right:10px;
+}
+
+.msg p {
+	padding-right: 5px;
+}
+
+#meg {
+	border-left: 3px solid white;
+}
+
+/*.fa-mobile-phone{
+	padding-left: 5px;
+}*/
+
+.fa-envelope-o {
+	padding-left: 10px;
+}
+
+
+.back {
+	background: url("../img/ab.jpg");
+	height: 500px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding-top:40px;
+	margin-top: 0px;
+}
+
+/*.back img {
+	width: 100%;
+	margin: 0 auto;
+	margin-top:-20px;
+	margin-top: -10px;
+}*/
+
+#content {
+	color: #000;
+}
+
+.row2 {
+	margin:30px 10px 10px 10px;
+	border:1px solid green;
+	box-shadow: 2px 2px 3px green;
+	padding: 20px;
+	border-radius:10px;
+}
+
+input[type=button]{
+	color: white;
+	text-transform: uppercase;
+	background: green;
+	border-radius: 10px;
+	outline: none;
+	border:none;
+}
+
+
+footer {
+	background: #333333 !important;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	margin-top: 20px;
+
+}
